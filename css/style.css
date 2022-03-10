@@ -1,0 +1,183 @@
+body {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* === GLOBALES === */
+
+.zwieschen-name {
+    display: flex;
+    gap: 1.4rem;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.zwieschen-name-1 {
+    margin-top: 0;
+}
+
+.strich {
+    width: 16.25rem;
+    height: .45rem;
+    background-color: #229fcc;
+}
+
+.dateien-name {
+    font-size: 1.5rem;
+    color: #229fcc;
+}
+
+.coontainer {
+    width: 1190px;
+}
+
+.row {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.top-teil {
+    margin-top: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-teil > h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.foto-teil {
+    margin-top: -1.85rem;
+}
+
+.foto-teil > img {
+    width: 10rem;
+    height: auto;
+}
+
+.inhalt {
+    /* margin-top: 40px; */
+    display: flex;
+    gap: 20px;
+}
+
+.inhalt > .inhalt-links p {
+    margin: 0;
+}
+
+.inhalt > .inhalt-rechts p {
+    margin: 0;
+}
+
+.inhalt-links {
+    width: 18rem;
+    height: 16rem;
+    text-align: right;
+    color: #229fcc;
+}
+
+.inhalt-rechts {
+    width: 35rem;
+    height: 16rem;
+    text-align: left;
+}
+
+.inhalt-rechts > p > span {
+    margin-left: 20px;
+}
+
+.inhalt-rechts-2 {
+    width: 35rem;
+    height: 53rem;
+}
+
+.inhalt-links-2 {
+    height: 53rem;
+}
+
+.inhalt-rechts-3 {
+    width: 35rem;
+    height: 9rem;
+}
+
+.inhalt-links-3 {
+    height: 9rem;
+}
+
+.inhalt-rechts-4 {
+    width: 35rem;
+    height: 13.5rem;
+}
+
+.inhalt-links-4 {
+    height: 13.5rem;
+}
+
+.inhalt-rechts-5 {
+    width: 35rem;
+    height: 2rem;
+}
+
+.inhalt-links-5 {
+    height: 2rem;
+}
+
+.sprachkenntnisse .inhalt .inhalt-rechts {
+    height: 13.5rem;
+}
+
+.sprachkenntnisse .inhalt .inhalt-links {
+    height: 13.5rem;
+}
+
+.unterschrift img {
+    width: 13rem;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1024px) {
+    .row {
+        width: 90%;
+    }
+}
+
+@media (max-width: 866px) {
+    .strich {
+        width: 14rem;
+    }
+    .inhalt-rechts-2 {
+        height: 60rem;
+    }
+}
+
+@media (max-width: 658px) {
+    .inhalt-rechts {
+        min-width: 350px;
+    }
+    .inhalt-links {
+        min-width: 100px;
+    }
+    .inhalt-rechts-2 {
+        height: 65rem;
+    }
+    .inhalt-rechts-3 {
+        height: 13rem;
+    }
+}
+
+@media (max-width: 562px) {
+    .inhalt-rechts {
+        min-width: 350px;
+    }
+    .inhalt-links {
+        min-width: 100px;
+    }
+}
