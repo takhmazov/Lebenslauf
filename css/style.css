@@ -150,6 +150,15 @@ body {
 }
 
 @media (max-width: 866px) {
+    body {
+        margin: 0;
+    }
+    .container {
+        margin: 0;
+    }
+    .row {
+        margin: 0;
+    }
     .strich {
         width: 14rem;
     }
